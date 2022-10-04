@@ -1,0 +1,17 @@
+{
+    "users": [
+        {
+            "id":"1",
+            "username":"super_admin",
+            "password":"superAdmin*",
+            "role":"admin"
+        },
+        {
+            "id":"2",
+            "username":"firstRecord",
+            "password":"123456",
+            "role":"user"
+        }
+    ],
+    "todos":[]
+}

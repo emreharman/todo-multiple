@@ -1,0 +1,20 @@
+1. Tanım- Amaç
+    Uygulamada 2 rol olacak, default registerda user,
+    diğer rol admin. Admin yetkileri:
+    - 
+
+
+
+2. Dependencies:
+    ->react-router-dom
+    ->axios
+    ->redux,
+    ->json-server
+    -> ui bootstrap
+
+3. SENARYO
+    A. LOGIN&REGISTER
+        Localstorage'ta login (userBilgileri - rol,kulanıcı adı,isLogin) bilgisi tutulacak. Uygulama açılırken 
+        localstorage kontrol edilecek.
+        Login ise anasayfaya yönelendir, değilse logine yönelendir
+        Login bilgisi redux'ta da tutulacak.
